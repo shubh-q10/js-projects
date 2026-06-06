@@ -1,0 +1,12 @@
+.body {
+    background-color: grey;
+}
+
+#clock {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: orange;
+}

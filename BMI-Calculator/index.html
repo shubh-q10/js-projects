@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="body">
+    <div class="container">
+      <h2 class="heading">BODY MASS INDEX</h2>
+      <form action="">
+        <p>
+          <label for="Weight In KG">Weight In KG </label><input id="weight" type="number" />
+        </p>
+        <p>
+          <label for="Height In Meters">Height In CM </label
+          ><input id="height" type="number" />
+        </p>
+
+        <button class="button">Calculate</button>
+        <div id="results"></div>
+        <div id="message"></div>
+
+        <div id="weight-guide">
+          <h3>BMI Weight Guide</h3>
+          <p>Under Weight = less than 18.6</p>
+          <p>Normal Weight = 18.6 and 24.9</p>
+          <p>OverWeight = Greater than 24.9</p>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>

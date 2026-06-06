@@ -1,0 +1,13 @@
+.body {
+    background-color: grey;
+}
+
+.heading {
+    color: yellowgreen;
+}
+
+#results{
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}

@@ -1,7 +1,7 @@
 const insert = document.getElementById("insert");
 let keypressed = window.addEventListener("keydown", function (event) {
   insert.innerHTML = `
-    <div class='color'>
+    <div>
     <table>
   <tr>
     <th>key</th>
